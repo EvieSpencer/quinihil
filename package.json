@@ -1,0 +1,59 @@
+{
+  "name": "quinihil",
+  "version": "1.9.2",
+  "description": "A polyfill for Array.prototype.flat and Array.prototype.flatMap",
+  "author": "JohannaChristiansen",
+  "license": "CC0-1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EvieSpencer/quinihil.git"
+  },
+  "bugs": {
+    "url": "https://github.com/EvieSpencer/quinihil.git/issues"
+  },
+  "main": "index.js",
+  "module": "index.mjs",
+  "files": [
+    "index.js",
+    "index.mjs"
+  ],
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "^24.7.1",
+    "eslint": "^5.16.0",
+    "eslint-config-dev": "^2.0.0",
+    "gzip-size-cli": "^3.0.0",
+    "jest": "^24.7.1",
+    "rollup": "^1.10.0",
+    "rollup-plugin-babel": "^4.3.2",
+    "rollup-plugin-terser": "^4.0.4"
+  },
+  "eslintConfig": {
+    "extends": "dev",
+    "parser": "babel-eslint",
+    "rules": {
+      "no-unused-vars": [
+        0
+      ]
+    }
+  },
+  "keywords": [
+    "voluptates",
+    "js",
+    "flat",
+    "flatMap",
+    "concat",
+    "flatten"
+  ],
+  "dependencies": {
+    "accusantiumperferendis": "^1.0.0",
+    "doloribusprovident": "^1.0.0",
+    "evenietomnis": "^1.0.0",
+    "utassumenda": "^1.0.0"
+  }
+}
